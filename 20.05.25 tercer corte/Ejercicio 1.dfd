@@ -1,0 +1,87 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+6
+con100
+1
+0
+5
+con50
+1
+0
+5
+con20
+1
+0
+6
+1
+5
+con10
+1
+0
+5
+1
+5
+valor
+6
+2
+6
+con100
+19
+trunc(valor/100000)
+5
+valor
+16
+valor mod 100000
+6
+2
+5
+con50
+18
+trunc(valor/50000)
+5
+valor
+15
+valor mod 50000
+6
+2
+5
+con20
+18
+trunc(valor/20000)
+5
+valor
+15
+valor mod 20000
+6
+2
+5
+con10
+18
+trunc(valor/10000)
+5
+valor
+15
+valor mod 10000
+4
+1
+26
+'billetes de 100: ',con100
+4
+1
+24
+'billetes de 50: ',con50
+4
+1
+24
+'billetes de 20: ',con20
+4
+1
+24
+'billetes de 10: ',con10
+1
